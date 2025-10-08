@@ -1,0 +1,24 @@
+.movie-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .movie-poster {
+    height: 260px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .movie-meta .badge {
+    margin-right: 4px;
+  }
+  
+  .modal-body img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
