@@ -1,0 +1,46 @@
+.dashboard-main {
+  min-height: 80vh;
+}
+.dashboard-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 18px 20px 16px 20px;
+  margin-bottom: 18px;
+}
+.dashboard-table th, .dashboard-table td {
+  vertical-align: middle !important;
+}
+.dashboard-table tr:nth-child(even) {
+  background: #fafbfc;
+}
+.dashboard-table th {
+  background: #f5f7fa;
+  font-weight: 600;
+}
+.dashboard-table .btn-warning {
+  background: #ffe082;
+  color: #333;
+  border: none;
+}
+.dashboard-table .btn-warning:hover {
+  background: #ffd54f;
+}
+.dashboard-table .btn-danger {
+  background: #ef5350;
+  border: none;
+}
+.dashboard-table .btn-danger:hover {
+  background: #d32f2f;
+}
+.dashboard-table .btn {
+  min-width: 60px;
+}
+.dashboard-footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  color: #888;
+  font-size: 0.95rem;
+  padding: 12px 0 4px 0;
+  text-align: center;
+}
